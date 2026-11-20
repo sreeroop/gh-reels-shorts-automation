@@ -1,7 +1,7 @@
 name: Upload to Facebook
 on:
   schedule:
-    - cron: '30 7 * * *' # 07:30 UTC = 1:00 PM IST
+    - cron: '39 7 * * *' # 07:30 UTC = 1:00 PM IST
   workflow_dispatch:
 jobs:
   upload:
