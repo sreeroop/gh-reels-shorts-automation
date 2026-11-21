@@ -1,7 +1,5 @@
 name: Upload to YouTube
 on:
-  schedule:
-    - cron: '0 13 * * *' # 13:00 UTC = 6:30 PM IST
   workflow_dispatch:
 jobs:
   upload:
